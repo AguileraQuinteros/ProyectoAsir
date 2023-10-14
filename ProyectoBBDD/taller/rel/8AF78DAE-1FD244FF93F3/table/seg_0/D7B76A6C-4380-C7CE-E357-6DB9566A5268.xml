@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D7B76A6C-4380-C7CE-E357-6DB9566A5268" name="EMPLEADO">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>D2BD3B1C-2723-9628-8BC6-5D05A4D4F455</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_emp" id="AB1CA71D-027B-BA2E-E151-895EE106C71E">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>AAAC3B1F-0FD2-BA52-8058-9171C1DD239C</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="0BC889DD-0C0D-6674-2293-634B4D1E2711">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>C2D7C13B-F0C5-3A9F-0AE2-D0D196AFA162</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellido" id="7BEAD6F9-7513-6601-128F-F89D4BB6949D">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>DF350178-425B-530A-8CA5-8E38210D4937</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefono" id="67CC301D-AA78-D717-2CCA-9D8ED1D3940A">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>11AAE07E-5F5A-2A24-0D17-5FC72E6A5F9F</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dni" id="AF2F99F0-22D2-7503-A32F-4DB96219BF62">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>F5CC46D6-44ED-2E93-8DA8-1BB0BD636207</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION_POSTAL_id_dir" id="6C359FED-3AA0-ADF5-84D2-6E127BCFD19B">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>9A751242-2CBA-5CB1-D0C4-98786A58CEA1</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C8BC8815-5FB9-ED3F-5F96-0810F408448D" referredColumn="4CA3F3E4-B8B6-5A57-FA26-3124C8689652"/>
+</associations>
+</Column>
+<Column name="LOCAL_id_local" id="EA2CF425-EA60-B513-8329-CD7F9A75AE13">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>8CA387F4-0D36-9468-1A13-9B1E2F982D98</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="802271B3-4F21-6276-2273-BC855145FACE" referredColumn="CDA0E137-C496-2D17-D304-58A7DD28F332"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DF2691F6-FCC6-6666-96A1-099D71BC665C" name="EMPLEADO_PK">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>7064218A-A256-D0AE-2295-AF5EF2B5B5CC</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB1CA71D-027B-BA2E-E151-895EE106C71E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1D1A28B5-D9FA-8DB2-D7C9-3B0BC9328F01" name="EMPLEADO_LOCAL_FK">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>2EA6F02F-4F09-D06D-ADCD-1F4C364B7EB3</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA2CF425-EA60-B513-8329-CD7F9A75AE13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E0D3B95D-1847-00B6-A1E4-7FE204F7B6BE" name="EMPLEADO_DIRECCION_POSTAL_FK">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>B7D73A53-F868-4460-07BA-0065FA2A54EE</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C359FED-3AA0-ADF5-84D2-6E127BCFD19B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

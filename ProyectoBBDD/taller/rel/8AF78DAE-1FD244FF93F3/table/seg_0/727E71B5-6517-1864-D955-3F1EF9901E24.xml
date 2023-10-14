@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="727E71B5-6517-1864-D955-3F1EF9901E24" name="BIZUN">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>C89DB707-8E63-5F98-3ABD-8D090E5D0D0F</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_forp" id="D4051250-5B02-D03B-B1E9-15295B5ED21F">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>9473503A-CF00-7562-5578-5EE096D1AC6C</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DEE6E208-BE3B-D2B9-5C24-07A07F42D96B" referredColumn="B8DCC0A2-B4A5-0F9E-0E77-D095F49C26DD"/>
+</associations>
+</Column>
+<Column name="id_bizum" id="2FB5B244-CC90-4115-1591-26B061331F37">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>C194214A-77DD-338E-4F57-A729E9949442</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="DB8474B7-E3D6-6526-5199-E447CDC177F4">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>4FFDB21E-F153-0D2C-53BD-7E973612C821</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefono" id="D7A22C84-88A4-6281-EB17-4D77015932E6">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>7ACFFD44-E828-B29E-9C6D-A0376AA9CBE3</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9F4E6FD4-50EC-0F7F-29B2-D8210C07C142" name="BIZUN_PK">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>784BFE7E-0279-A9D5-8569-A36C776E6F9C</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4051250-5B02-D03B-B1E9-15295B5ED21F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8D8B5B3-83B3-E504-309D-6D2E1A649482" name="BIZUN_PKv1">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>FEE35F9B-E924-1CF8-5A1C-801B59E8F7BB</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2FB5B244-CC90-4115-1591-26B061331F37"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4EC7A74-44F6-2FA5-5450-58F4914B43C1" name="BIZUN_FORMA_PAGO_FK">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>2D584905-AB44-1A8E-D7AF-78F5A32BD7BF</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4051250-5B02-D03B-B1E9-15295B5ED21F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

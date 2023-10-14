@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="49133F90-80BD-2A1C-9436-C87C0FDE4D48" name="DIRECCION_POSTAL">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 10:52:33 UTC</createdTime>
+<ownerDesignName>taller</ownerDesignName>
+<engineerTo>
+<item key="8AF78DAE-167B-A78C-7068-1FD244FF93F3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_dir" id="95003760-59DC-8AA6-4960-E2AA9ED06E54">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 10:52:55 UTC</createdTime>
+<ownerDesignName>taller</ownerDesignName>
+<engineerTo>
+<item key="8AF78DAE-167B-A78C-7068-1FD244FF93F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Direccion" id="2349C5CD-45CE-0C13-9449-048587F3035F">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 10:53:24 UTC</createdTime>
+<ownerDesignName>taller</ownerDesignName>
+<engineerTo>
+<item key="8AF78DAE-167B-A78C-7068-1FD244FF93F3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Localidad" id="2EA1AA07-1207-37D4-CCDE-B47EB5B8B67D">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 10:53:48 UTC</createdTime>
+<ownerDesignName>taller</ownerDesignName>
+<engineerTo>
+<item key="8AF78DAE-167B-A78C-7068-1FD244FF93F3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ciudad" id="BA233850-7E83-7C90-9D66-C2F8109B0DD6">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 10:54:36 UTC</createdTime>
+<ownerDesignName>taller</ownerDesignName>
+<engineerTo>
+<item key="8AF78DAE-167B-A78C-7068-1FD244FF93F3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Codigo_postal" id="2CF3846E-D61A-3CFF-06A1-34797BAE46A2">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 10:54:55 UTC</createdTime>
+<ownerDesignName>taller</ownerDesignName>
+<engineerTo>
+<item key="8AF78DAE-167B-A78C-7068-1FD244FF93F3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BFC759BB-A43D-1B55-AD59-DDCBFA960ED6" name="DIRECCION_POSTAL PK">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 10:53:22 UTC</createdTime>
+<ownerDesignName>taller</ownerDesignName>
+<engineerTo>
+<item key="8AF78DAE-167B-A78C-7068-1FD244FF93F3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>95003760-59DC-8AA6-4960-E2AA9ED06E54</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

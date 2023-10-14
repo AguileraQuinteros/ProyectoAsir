@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8F5B8E22-EF58-6AB0-7434-E21AD08E4FF7" name="realizav4">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<ownerDesignName>taller</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="REPARACION_id_rep" id="69ECFB38-4701-B6AD-36AE-32D7E1946406">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<ownerDesignName>taller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20208EA1-F131-4E3E-FCF9-B1572FBDFD6F" referredColumn="3ACB0EAB-3E10-93BF-1D0F-BEFEEE1F6A9B"/>
+</associations>
+</Column>
+<Column name="VEHICULO_id_vehiculo" id="B2FC66CA-2D0A-B637-3448-7EC7283B22F5">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<ownerDesignName>taller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C4D34C3-23A3-88A6-79CF-68C43DAAAE9A" referredColumn="21FB7DDF-D45F-C7B7-FFCF-EA52D3EE6C75"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="84CE55A6-1EA9-3C7B-ED98-2961FE655828" name="realizav4_PK">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<ownerDesignName>taller</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69ECFB38-4701-B6AD-36AE-32D7E1946406"/>
+<colUsage columnID="B2FC66CA-2D0A-B637-3448-7EC7283B22F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="01F7B015-33A7-72E7-84AE-F030AF99D988" name="realizav4_REPARACION_FK">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>D1E25543-D8FA-0AA4-6377-2A639E1E0A2A</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69ECFB38-4701-B6AD-36AE-32D7E1946406"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="694E96C0-2D7A-C89C-28FD-59A2E7807798" name="realizav4_VEHICULO_FK">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>D1E25543-D8FA-0AA4-6377-2A639E1E0A2A</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2FC66CA-2D0A-B637-3448-7EC7283B22F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

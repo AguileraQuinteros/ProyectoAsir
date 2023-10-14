@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="77CCE05A-3D38-07A0-24CF-940F4874A3AB" name="FORMA_PAGO">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>13F1F303-DAE5-83A9-4884-4A6C8BABADDA</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_forp" id="B8DCC0A2-B4A5-0F9E-0E77-D095F49C26DD">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>9473503A-CF00-7562-5578-5EE096D1AC6C</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRANSFERENCIA_BANCARIA_id_traf" id="D90DDB5A-445B-EE14-561D-D7EA07F365FF">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>032638D6-C5A6-5720-FAB8-3A2B2F24F7FF</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A9B7F73-C59F-72CA-3B87-9762559803BF" referredColumn="B49B54CC-0FE8-43B2-040C-7DD452A1A014"/>
+</associations>
+</Column>
+<Column name="BIZUN_id_bizum" id="1530F945-F320-0E0C-1B10-FA51F9544099">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>CDB01B45-FE54-B0A2-BE62-9A99E171B299</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="361F112A-AA9C-C90F-EB08-C4A328DE655C" referredColumn="2FB5B244-CC90-4115-1591-26B061331F37"/>
+</associations>
+</Column>
+<Column name="TARJETA_id_tarjeta" id="A50DC45A-CC1E-4EC3-9199-1ECD88C48BB6">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>91A7837D-08C2-2790-A347-D21813CEB0BF</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4CDE1FA9-642D-3F68-4294-5D75B46C0420" referredColumn="A1E61F0A-60E0-A029-CB9D-883B586B8F4B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="40E99272-C339-AE87-D067-F82460F5CFD2" name="FORMA_PAGO_PK">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>784BFE7E-0279-A9D5-8569-A36C776E6F9C</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8DCC0A2-B4A5-0F9E-0E77-D095F49C26DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EB7BF395-3105-3AE0-35CF-80D7DA676266" name="FORMA_PAGO_TRANSFERENCIA_BANCARIA_FK">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>24951C40-8B2C-B24F-E6FF-02876D0AFC55</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D90DDB5A-445B-EE14-561D-D7EA07F365FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D3885DB-638E-60BE-3FA0-303E213643F7" name="FORMA_PAGO_BIZUN_FK">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>0957935C-3AD1-6F5B-C95D-6EE580D5DDC0</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1530F945-F320-0E0C-1B10-FA51F9544099"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FFB60F33-3FC8-8F45-E285-E01E7343A05C" name="FORMA_PAGO_TARJETA_FK">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>D9DD7DE9-7159-F178-856E-7B45E3F5FFEC</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A50DC45A-CC1E-4EC3-9199-1ECD88C48BB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

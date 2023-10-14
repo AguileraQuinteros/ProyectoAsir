@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B9F325DD-6862-A7EF-941D-09880F58DDFE" name="acude">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<ownerDesignName>taller</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CLIENTE_id_cliente" id="AC711711-D9BB-C466-01CC-814114A9458E">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<ownerDesignName>taller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6056DBB1-7D44-8794-5A13-95EAD841718F" referredColumn="F8F1CB06-91E5-EB22-9807-2EE67647D2FC"/>
+</associations>
+</Column>
+<Column name="LOCAL_id_local" id="4B819F2C-8FF1-ADB0-6C2B-26735EA449EA">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<ownerDesignName>taller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3395F804-9183-159F-7E38-43D00948D6EF" referredColumn="CDA0E137-C496-2D17-D304-58A7DD28F332"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="06F57A11-3B6F-0261-1A37-64E7AF817068" name="acude_PK">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<ownerDesignName>taller</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC711711-D9BB-C466-01CC-814114A9458E"/>
+<colUsage columnID="4B819F2C-8FF1-ADB0-6C2B-26735EA449EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="88EE3FAB-F4BB-E60B-AE5D-27B9DC1250B6" name="acude_CLIENTE_FK">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>B5618960-BE2F-D711-8D0B-04A9EACEEC85</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC711711-D9BB-C466-01CC-814114A9458E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79765C33-2E65-2EF9-A0B4-1A3E163AB453" name="acude_LOCAL_FK">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>B5618960-BE2F-D711-8D0B-04A9EACEEC85</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B819F2C-8FF1-ADB0-6C2B-26735EA449EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

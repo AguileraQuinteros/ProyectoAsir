@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D8FCC6B2-76D9-1C25-AA10-8B95E1DC882C" name="PAGO">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 10:55:53 UTC</createdTime>
+<ownerDesignName>taller</ownerDesignName>
+<engineerTo>
+<item key="8AF78DAE-167B-A78C-7068-1FD244FF93F3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_pago" id="B8D7955E-4E61-1F23-09F6-254EA629FC0A">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 10:56:08 UTC</createdTime>
+<ownerDesignName>taller</ownerDesignName>
+<engineerTo>
+<item key="8AF78DAE-167B-A78C-7068-1FD244FF93F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Estado_pago" id="E10447DD-51AE-DFE0-74C8-7610FC8B7B12">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 10:56:29 UTC</createdTime>
+<ownerDesignName>taller</ownerDesignName>
+<engineerTo>
+<item key="8AF78DAE-167B-A78C-7068-1FD244FF93F3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_pago" id="DCBA67CF-69D5-1C47-95F2-96F7D50B9811">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 10:57:02 UTC</createdTime>
+<ownerDesignName>taller</ownerDesignName>
+<engineerTo>
+<item key="8AF78DAE-167B-A78C-7068-1FD244FF93F3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cliente" id="CCDC98A2-499F-D686-A8BF-2B50FA532540">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 11:37:48 UTC</createdTime>
+<generatorID>0E266C8A-8D94-1727-0A3C-7D6B29FA1720</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<engineerTo>
+<item key="8AF78DAE-167B-A78C-7068-1FD244FF93F3" value="true"/>
+</engineerTo>
+<referedAttribute>4A5FB1FA-6A77-4178-1903-7AC185EFE20B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_forp" id="62760022-C8EE-E5D3-12DC-F25B677F4601">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:04:31 UTC</createdTime>
+<generatorID>38CB703E-8B4A-9713-0BD8-67FE0389EFE6</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<engineerTo>
+<item key="8AF78DAE-167B-A78C-7068-1FD244FF93F3" value="true"/>
+</engineerTo>
+<referedAttribute>9473503A-CF00-7562-5578-5EE096D1AC6C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="07BE24C2-118E-0985-B8BE-F0157E6C9B84" name="PAGO PK">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 10:57:28 UTC</createdTime>
+<ownerDesignName>taller</ownerDesignName>
+<engineerTo>
+<item key="8AF78DAE-167B-A78C-7068-1FD244FF93F3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B8D7955E-4E61-1F23-09F6-254EA629FC0A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

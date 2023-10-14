@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D216F0E9-84A2-BDDF-95E6-85DB5D7F250C" containerWithKeyObject="B0B7F735-348A-1AF9-88EA-60890641BA03" localFKIndex="1D72640D-5EAA-A82E-0C99-89A98800884E" name="TARJETA_FORMA_PAGO_FK">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>FA0EBE9F-5F9C-D1A5-B39B-76B39EDDD063</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<referredTableLongName>FORMA_PAGO</referredTableLongName>
+<arc>72BCF575-CC7E-DB52-A02C-081A957F8FEE</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>77CCE05A-3D38-07A0-24CF-940F4874A3AB</referredTableID>
+<keyObject>40E99272-C339-AE87-D067-F82460F5CFD2</keyObject>
+<referredKeyID>40E99272-C339-AE87-D067-F82460F5CFD2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_forp</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

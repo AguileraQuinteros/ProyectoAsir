@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA4C5439-0BF2-E37D-95E7-26B5AAAA2920" name="tienev8">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<ownerDesignName>taller</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="REPUESTO_id_res" id="1FB073D0-9CDE-5122-2DE7-011BC3F8AF07">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<ownerDesignName>taller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="167E38F3-72C9-5BAA-6529-EC34723642A4" referredColumn="C238410E-3627-BA0D-45A2-D204F5B68D22"/>
+</associations>
+</Column>
+<Column name="REPARACION_id_rep" id="E164FF85-5514-17A0-0B2C-BAE77118F2C8">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<ownerDesignName>taller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07618E92-5B18-9F41-CB43-C1999B5DDB9E" referredColumn="3ACB0EAB-3E10-93BF-1D0F-BEFEEE1F6A9B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D9CBF72-8F02-49F0-D258-ED35E3A1C68D" name="tienev8_PK">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<ownerDesignName>taller</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FB073D0-9CDE-5122-2DE7-011BC3F8AF07"/>
+<colUsage columnID="E164FF85-5514-17A0-0B2C-BAE77118F2C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B5C45B8-20FA-3493-9333-42176B2D9806" name="tienev8_REPUESTO_FK">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>CAF541ED-81A6-153F-1215-CC80DBA1259D</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FB073D0-9CDE-5122-2DE7-011BC3F8AF07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="41E22AEA-FDC4-D93D-E333-6BA9AE9B19EE" name="tienev8_REPARACION_FK">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>CAF541ED-81A6-153F-1215-CC80DBA1259D</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E164FF85-5514-17A0-0B2C-BAE77118F2C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

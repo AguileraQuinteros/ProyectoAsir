@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6FBE5B46-1BCB-E1C2-5EB8-875452D9D47D" name="VEHICULO">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>7D5001EF-9F94-E203-30AE-FA4E56610405</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_vehiculo" id="21FB7DDF-D45F-C7B7-FFCF-EA52D3EE6C75">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>037577F0-662E-9AC9-A865-1804E7B060DB</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Matricula" id="2E3E0177-0072-7497-9099-0FC9913B8A91">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>667A67DC-FAAC-33EB-BD99-46161376A1F5</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_entrega" id="AC4813CA-0681-A3AB-78E5-23CF806A2B45">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>4F20BE59-E23E-9BB5-446E-927219295633</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="E0962A97-BA33-D255-4C60-BC46A8D86DCC">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>3F79F82D-B37D-0706-0838-0367998A5608</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLIENTE_id_cliente" id="EC318247-BB9C-C8A0-D493-ADBCBA72C84B">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>2868A65C-007C-27DD-D6F3-79293549FE0E</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="16266742-3721-F33E-5370-DFF0F243F156" referredColumn="F8F1CB06-91E5-EB22-9807-2EE67647D2FC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="523F2D39-D8F3-F03B-5303-5EE38D21F32B" name="VEHICULO_PK">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>BFAD6FFB-A67E-0B9C-5133-50657D0543DC</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21FB7DDF-D45F-C7B7-FFCF-EA52D3EE6C75"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C5DCA9D7-FEAC-5FDB-39E5-B07D20563914" name="VEHICULO_CLIENTE_FK">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>987EFD81-8EF5-3D6D-6A06-C9CB26B5B385</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC318247-BB9C-C8A0-D493-ADBCBA72C84B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

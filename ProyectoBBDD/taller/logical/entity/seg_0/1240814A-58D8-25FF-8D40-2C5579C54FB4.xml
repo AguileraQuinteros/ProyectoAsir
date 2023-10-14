@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1240814A-58D8-25FF-8D40-2C5579C54FB4" name="CLIENTE">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 10:39:53 UTC</createdTime>
+<ownerDesignName>taller</ownerDesignName>
+<engineerTo>
+<item key="8AF78DAE-167B-A78C-7068-1FD244FF93F3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cliente" id="4A5FB1FA-6A77-4178-1903-7AC185EFE20B">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 10:40:07 UTC</createdTime>
+<ownerDesignName>taller</ownerDesignName>
+<engineerTo>
+<item key="8AF78DAE-167B-A78C-7068-1FD244FF93F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="AC22A791-1B4F-1D42-26FC-945C70338372">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 10:40:41 UTC</createdTime>
+<ownerDesignName>taller</ownerDesignName>
+<engineerTo>
+<item key="8AF78DAE-167B-A78C-7068-1FD244FF93F3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellido" id="0A0F651B-5E73-E0FC-2865-198B0D750213">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 10:42:41 UTC</createdTime>
+<ownerDesignName>taller</ownerDesignName>
+<engineerTo>
+<item key="8AF78DAE-167B-A78C-7068-1FD244FF93F3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dni" id="2A2EF32F-98F8-E8A3-E77A-3843179F9F08">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 10:41:46 UTC</createdTime>
+<ownerDesignName>taller</ownerDesignName>
+<engineerTo>
+<item key="8AF78DAE-167B-A78C-7068-1FD244FF93F3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefono" id="50B4A81E-B11F-2808-29D5-4099EE2085D9">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 10:42:20 UTC</createdTime>
+<ownerDesignName>taller</ownerDesignName>
+<engineerTo>
+<item key="8AF78DAE-167B-A78C-7068-1FD244FF93F3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_dir" id="82945409-CFA7-41CE-79CB-AA72B2BE25EE">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 11:37:17 UTC</createdTime>
+<generatorID>2309FBD8-836C-7CCF-095C-CE364C77BDE5</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<engineerTo>
+<item key="8AF78DAE-167B-A78C-7068-1FD244FF93F3" value="true"/>
+</engineerTo>
+<referedAttribute>95003760-59DC-8AA6-4960-E2AA9ED06E54</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2EEEC5E3-3214-B92D-D220-6637B8D78D10" name="CLIENTE PK">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 10:40:20 UTC</createdTime>
+<ownerDesignName>taller</ownerDesignName>
+<engineerTo>
+<item key="8AF78DAE-167B-A78C-7068-1FD244FF93F3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4A5FB1FA-6A77-4178-1903-7AC185EFE20B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

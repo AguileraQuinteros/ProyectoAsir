@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DF457753-7D91-A45A-6982-2279C1C801A0" name="realizav3">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<ownerDesignName>taller</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LOCAL_id_local" id="3DD536BE-FA81-97F2-8529-A91D400F249A">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<ownerDesignName>taller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="96865A4A-BC98-D6BD-6630-2C2E582CE5F3" referredColumn="CDA0E137-C496-2D17-D304-58A7DD28F332"/>
+</associations>
+</Column>
+<Column name="REPARACION_id_rep" id="94059AB5-68B1-A9CA-44E8-817720AE9C72">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<ownerDesignName>taller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5A7B91D-1500-EED0-11DA-A545C0DCF2E6" referredColumn="3ACB0EAB-3E10-93BF-1D0F-BEFEEE1F6A9B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="777BEA91-A916-E52C-E182-61F1928C6A96" name="realizav3_PK">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<ownerDesignName>taller</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DD536BE-FA81-97F2-8529-A91D400F249A"/>
+<colUsage columnID="94059AB5-68B1-A9CA-44E8-817720AE9C72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C426DF1-A29A-D3ED-F131-31CAA532C8D8" name="realizav3_LOCAL_FK">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>01DED5C3-491F-58A4-8918-26C58A1E10D8</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DD536BE-FA81-97F2-8529-A91D400F249A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EDCAEB50-28EF-5A9A-0178-AC59A8956FE2" name="realizav3_REPARACION_FK">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>01DED5C3-491F-58A4-8918-26C58A1E10D8</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94059AB5-68B1-A9CA-44E8-817720AE9C72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

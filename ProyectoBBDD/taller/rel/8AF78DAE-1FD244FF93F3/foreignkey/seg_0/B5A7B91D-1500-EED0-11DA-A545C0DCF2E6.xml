@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B5A7B91D-1500-EED0-11DA-A545C0DCF2E6" containerWithKeyObject="DF457753-7D91-A45A-6982-2279C1C801A0" localFKIndex="EDCAEB50-28EF-5A9A-0178-AC59A8956FE2" name="realizav3_REPARACION_FK">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>01DED5C3-491F-58A4-8918-26C58A1E10D8</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<referredTableLongName>REPARACION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>809C4923-C466-F94B-FB06-F58FA8175352</referredTableID>
+<keyObject>3AA43EB1-08F6-0E0B-42EE-53B93591755F</keyObject>
+<referredKeyID>3AA43EB1-08F6-0E0B-42EE-53B93591755F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_rep</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

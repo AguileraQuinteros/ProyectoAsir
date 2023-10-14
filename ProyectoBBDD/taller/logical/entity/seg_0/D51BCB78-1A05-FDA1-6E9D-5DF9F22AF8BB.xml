@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D51BCB78-1A05-FDA1-6E9D-5DF9F22AF8BB" name="PROVEEDOR">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 11:32:29 UTC</createdTime>
+<ownerDesignName>taller</ownerDesignName>
+<engineerTo>
+<item key="8AF78DAE-167B-A78C-7068-1FD244FF93F3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_pro" id="37D87BC4-7CAC-C5FE-E834-07E8BE3FCE21">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 11:32:42 UTC</createdTime>
+<ownerDesignName>taller</ownerDesignName>
+<engineerTo>
+<item key="8AF78DAE-167B-A78C-7068-1FD244FF93F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="F3AE90C3-128A-7AC7-885A-E72A1C641122">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 11:32:53 UTC</createdTime>
+<ownerDesignName>taller</ownerDesignName>
+<engineerTo>
+<item key="8AF78DAE-167B-A78C-7068-1FD244FF93F3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellido" id="F788DED9-5593-9325-3700-4ED1457EB50F">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 11:33:07 UTC</createdTime>
+<ownerDesignName>taller</ownerDesignName>
+<engineerTo>
+<item key="8AF78DAE-167B-A78C-7068-1FD244FF93F3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Empresa" id="1A5B4E6F-F0EA-2EBD-5CB6-B1FE356B7DAA">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 11:33:17 UTC</createdTime>
+<ownerDesignName>taller</ownerDesignName>
+<engineerTo>
+<item key="8AF78DAE-167B-A78C-7068-1FD244FF93F3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Correo" id="132C88F3-9D02-F8EF-EC8E-0313DB80529C">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 11:33:33 UTC</createdTime>
+<ownerDesignName>taller</ownerDesignName>
+<engineerTo>
+<item key="8AF78DAE-167B-A78C-7068-1FD244FF93F3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefono" id="90D3C221-2674-BEFA-D517-72FAB4DA0C07">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 11:33:50 UTC</createdTime>
+<ownerDesignName>taller</ownerDesignName>
+<engineerTo>
+<item key="8AF78DAE-167B-A78C-7068-1FD244FF93F3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_dir" id="B1693839-41CF-8F80-CE1F-EE0E0C94D7DE">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 11:50:17 UTC</createdTime>
+<generatorID>BDE5C2EE-D6DD-0017-CFE3-FD7DF216AAEF</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<engineerTo>
+<item key="8AF78DAE-167B-A78C-7068-1FD244FF93F3" value="true"/>
+</engineerTo>
+<referedAttribute>95003760-59DC-8AA6-4960-E2AA9ED06E54</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="293D2BCB-56FD-ED67-9D5C-265AB3DFFAD9" name="PROVEEDOR PK">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 11:34:32 UTC</createdTime>
+<ownerDesignName>taller</ownerDesignName>
+<engineerTo>
+<item key="8AF78DAE-167B-A78C-7068-1FD244FF93F3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>37D87BC4-7CAC-C5FE-E834-07E8BE3FCE21</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

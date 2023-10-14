@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="361F112A-AA9C-C90F-EB08-C4A328DE655C" containerWithKeyObject="77CCE05A-3D38-07A0-24CF-940F4874A3AB" localFKIndex="9D3885DB-638E-60BE-3FA0-303E213643F7" name="FORMA_PAGO_BIZUN_FK">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>0957935C-3AD1-6F5B-C95D-6EE580D5DDC0</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<referredTableLongName>BIZUN</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>727E71B5-6517-1864-D955-3F1EF9901E24</referredTableID>
+<keyObject>D8D8B5B3-83B3-E504-309D-6D2E1A649482</keyObject>
+<referredKeyID>D8D8B5B3-83B3-E504-309D-6D2E1A649482</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_bizum</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

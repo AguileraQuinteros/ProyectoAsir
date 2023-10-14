@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="acude" directorySegmentName="seg_0" id="B5618960-BE2F-D711-8D0B-04A9EACEEC85">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:14:25 UTC</createdTime>
+<ownerDesignName>taller</ownerDesignName>
+<engineerTo>
+<item key="8AF78DAE-167B-A78C-7068-1FD244FF93F3" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>1240814A-58D8-25FF-8D40-2C5579C54FB4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>004D8E0B-543D-F619-7E74-2282CC91D5E8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

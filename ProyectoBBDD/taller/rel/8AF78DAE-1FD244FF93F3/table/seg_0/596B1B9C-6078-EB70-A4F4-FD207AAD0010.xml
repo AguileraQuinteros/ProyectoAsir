@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="596B1B9C-6078-EB70-A4F4-FD207AAD0010" name="REPUESTO">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>C6CD36E3-5BD0-664F-8BA5-17A1A61CB476</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_res" id="C238410E-3627-BA0D-45A2-D204F5B68D22">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>59D7DCAF-A7D1-5C90-73ED-75F386DC22CF</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Referencia" id="71AA8596-4A13-56ED-D4E0-2D3E0A4B6719">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>A2610207-080F-0EAB-179C-A63ED95779B1</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Marca" id="79559D7D-D80C-25C1-F775-03C0C671E5F8">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>C9B68E7A-9779-0716-EA17-9CCC26DC9B18</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Precio" id="0FD8C91C-C0DB-F084-3742-271FA2183905">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>4D8E6844-547D-12D2-9011-AD2CEC765081</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROVEEDOR_id_pro" id="C5C158AE-CA66-9DCF-E4C6-FDCC62F9CF8B">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>94238B20-1946-2D16-9088-B91F39A9AF5B</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="44660793-663C-D676-94EE-059849C11E77" referredColumn="53304A83-4649-FB2F-581D-D4979580C3DD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0B396F48-E6A8-56CB-E026-C6CB0FFE2EB4" name="REPUESTO_PK">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>5C74F503-2532-7DEA-5C89-D20F6C159872</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C238410E-3627-BA0D-45A2-D204F5B68D22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D3F6EC86-F190-FD67-20A0-40AA62D8A018" name="REPUESTO_PROVEEDOR_FK">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>49C95400-FF94-2436-3370-8BC34E5A5FC3</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5C158AE-CA66-9DCF-E4C6-FDCC62F9CF8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

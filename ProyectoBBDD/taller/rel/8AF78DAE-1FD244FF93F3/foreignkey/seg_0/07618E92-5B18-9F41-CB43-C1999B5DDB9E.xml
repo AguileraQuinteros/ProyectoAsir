@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="07618E92-5B18-9F41-CB43-C1999B5DDB9E" containerWithKeyObject="CA4C5439-0BF2-E37D-95E7-26B5AAAA2920" localFKIndex="41E22AEA-FDC4-D93D-E333-6BA9AE9B19EE" name="tienev8_REPARACION_FK">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>CAF541ED-81A6-153F-1215-CC80DBA1259D</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<referredTableLongName>REPARACION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>809C4923-C466-F94B-FB06-F58FA8175352</referredTableID>
+<keyObject>3AA43EB1-08F6-0E0B-42EE-53B93591755F</keyObject>
+<referredKeyID>3AA43EB1-08F6-0E0B-42EE-53B93591755F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_rep</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

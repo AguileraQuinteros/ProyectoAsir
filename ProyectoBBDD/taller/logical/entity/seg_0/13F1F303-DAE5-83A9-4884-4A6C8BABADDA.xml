@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="13F1F303-DAE5-83A9-4884-4A6C8BABADDA" name="FORMA_PAGO">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 11:56:23 UTC</createdTime>
+<ownerDesignName>taller</ownerDesignName>
+<engineerTo>
+<item key="8AF78DAE-167B-A78C-7068-1FD244FF93F3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_forp" id="9473503A-CF00-7562-5578-5EE096D1AC6C">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 11:56:36 UTC</createdTime>
+<ownerDesignName>taller</ownerDesignName>
+<engineerTo>
+<item key="8AF78DAE-167B-A78C-7068-1FD244FF93F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_traf" id="032638D6-C5A6-5720-FAB8-3A2B2F24F7FF">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:00:47 UTC</createdTime>
+<generatorID>24951C40-8B2C-B24F-E6FF-02876D0AFC55</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<engineerTo>
+<item key="8AF78DAE-167B-A78C-7068-1FD244FF93F3" value="true"/>
+</engineerTo>
+<referedAttribute>801B986D-CCAF-7697-54C1-72D454D3A1EA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_bizum" id="CDB01B45-FE54-B0A2-BE62-9A99E171B299">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:01:06 UTC</createdTime>
+<generatorID>0957935C-3AD1-6F5B-C95D-6EE580D5DDC0</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<engineerTo>
+<item key="8AF78DAE-167B-A78C-7068-1FD244FF93F3" value="true"/>
+</engineerTo>
+<referedAttribute>C194214A-77DD-338E-4F57-A729E9949442</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tarjeta" id="91A7837D-08C2-2790-A347-D21813CEB0BF">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:01:14 UTC</createdTime>
+<generatorID>D9DD7DE9-7159-F178-856E-7B45E3F5FFEC</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<engineerTo>
+<item key="8AF78DAE-167B-A78C-7068-1FD244FF93F3" value="true"/>
+</engineerTo>
+<referedAttribute>DDBE7B05-8463-3C7B-7D4F-A4A03FE1E706</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="784BFE7E-0279-A9D5-8569-A36C776E6F9C" name="FORMA_PAGO PK">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 11:56:54 UTC</createdTime>
+<ownerDesignName>taller</ownerDesignName>
+<engineerTo>
+<item key="8AF78DAE-167B-A78C-7068-1FD244FF93F3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9473503A-CF00-7562-5578-5EE096D1AC6C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

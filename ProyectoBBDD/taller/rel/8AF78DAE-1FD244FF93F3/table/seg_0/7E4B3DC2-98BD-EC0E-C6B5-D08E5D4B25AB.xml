@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7E4B3DC2-98BD-EC0E-C6B5-D08E5D4B25AB" name="PAGO">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>D8FCC6B2-76D9-1C25-AA10-8B95E1DC882C</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pago" id="562B0163-727C-3AB4-2123-CA1420F67225">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>B8D7955E-4E61-1F23-09F6-254EA629FC0A</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estado_pago" id="30FD4F37-B9BD-87AB-C77D-B6BBDA518485">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>E10447DD-51AE-DFE0-74C8-7610FC8B7B12</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_pago" id="CAF33A5A-5009-F3FD-46B6-6B3BFE876D30">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>DCBA67CF-69D5-1C47-95F2-96F7D50B9811</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLIENTE_id_cliente" id="3F924559-1E59-C040-4F49-0FCEAE8D5C06">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>CCDC98A2-499F-D686-A8BF-2B50FA532540</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="865E23C8-3ED2-DD3C-A238-E52EA5C038B8" referredColumn="F8F1CB06-91E5-EB22-9807-2EE67647D2FC"/>
+</associations>
+</Column>
+<Column name="FORMA_PAGO_id_forp" id="80F98479-F085-9C19-EEAF-8C174364E3D1">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>62760022-C8EE-E5D3-12DC-F25B677F4601</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F97C0F2E-294F-3ECC-AA3F-F915D45F5D91" referredColumn="B8DCC0A2-B4A5-0F9E-0E77-D095F49C26DD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7B26914E-2822-FBED-EF12-B37135B970D7" name="PAGO_PK">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>07BE24C2-118E-0985-B8BE-F0157E6C9B84</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="562B0163-727C-3AB4-2123-CA1420F67225"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="20D26FB1-D1DA-983C-7674-221CCE105E02" name="PAGO_CLIENTE_FK">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>0E266C8A-8D94-1727-0A3C-7D6B29FA1720</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F924559-1E59-C040-4F49-0FCEAE8D5C06"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F1E491A-8260-767C-E485-B20212360D7C" name="PAGO_FORMA_PAGO_FK">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>38CB703E-8B4A-9713-0BD8-67FE0389EFE6</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80F98479-F085-9C19-EEAF-8C174364E3D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

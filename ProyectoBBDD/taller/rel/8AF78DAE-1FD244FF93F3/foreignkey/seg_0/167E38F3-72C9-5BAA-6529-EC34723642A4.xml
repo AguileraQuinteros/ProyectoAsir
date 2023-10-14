@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="167E38F3-72C9-5BAA-6529-EC34723642A4" containerWithKeyObject="CA4C5439-0BF2-E37D-95E7-26B5AAAA2920" localFKIndex="5B5C45B8-20FA-3493-9333-42176B2D9806" name="tienev8_REPUESTO_FK">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>CAF541ED-81A6-153F-1215-CC80DBA1259D</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<referredTableLongName>REPUESTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>596B1B9C-6078-EB70-A4F4-FD207AAD0010</referredTableID>
+<keyObject>0B396F48-E6A8-56CB-E026-C6CB0FFE2EB4</keyObject>
+<referredKeyID>0B396F48-E6A8-56CB-E026-C6CB0FFE2EB4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_res</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

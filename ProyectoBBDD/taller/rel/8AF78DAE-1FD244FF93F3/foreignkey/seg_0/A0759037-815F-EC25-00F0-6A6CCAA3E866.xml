@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A0759037-815F-EC25-00F0-6A6CCAA3E866" containerWithKeyObject="04ED47DD-CA6C-14DB-AACF-1A6B5E26EFCB" localFKIndex="410095EC-619A-5DD1-7A26-71EA5E5CB916" name="LOCAL_DIRECCION_POSTAL_FK">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>95F3454C-1E84-C8BC-D402-F75B22993419</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<referredTableLongName>DIRECCION_POSTAL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>25273CD5-05C6-C477-2586-767D438C9939</referredTableID>
+<keyObject>BD5A7F82-6870-E432-AA1F-59C077877A53</keyObject>
+<referredKeyID>BD5A7F82-6870-E432-AA1F-59C077877A53</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_dir</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B0B7F735-348A-1AF9-88EA-60890641BA03" name="TARJETA">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>17094AEC-FC36-7818-3D34-F5C42E3DFBA7</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_forp" id="F7AF7C34-74AA-FAE6-DA7F-3753704923D5">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>9473503A-CF00-7562-5578-5EE096D1AC6C</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D216F0E9-84A2-BDDF-95E6-85DB5D7F250C" referredColumn="B8DCC0A2-B4A5-0F9E-0E77-D095F49C26DD"/>
+</associations>
+</Column>
+<Column name="id_tarjeta" id="A1E61F0A-60E0-A029-CB9D-883B586B8F4B">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>DDBE7B05-8463-3C7B-7D4F-A4A03FE1E706</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="0F783C15-6901-8F27-B346-C403B09A03FE">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>520FB690-C063-7807-00A1-2DB4E3C8393A</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numero_tarjeta" id="0C30884A-BA07-E671-FF34-F73FA5519F5A">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>C052920F-D2C4-A040-FC5C-4A89ED6DCC49</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_caducidad" id="DE540836-7DDE-5E4D-88F3-00495B75D4CB">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>40717E00-F529-F6A9-C796-942759E36C18</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CVV" id="B03FA32A-6D1F-1A13-2F81-9C339AD88A72">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>46A17299-AF17-4120-10BA-29E731B674A6</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="182769E3-12F1-461A-C00E-3448B695C71A" name="TARJETA_PK">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>784BFE7E-0279-A9D5-8569-A36C776E6F9C</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7AF7C34-74AA-FAE6-DA7F-3753704923D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0140A51E-2404-D891-8CDB-59C3CCAE1692" name="TARJETA_PKv1">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>58BC58AF-C65D-CA65-FE3C-9F10EF16E808</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1E61F0A-60E0-A029-CB9D-883B586B8F4B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1D72640D-5EAA-A82E-0C99-89A98800884E" name="TARJETA_FORMA_PAGO_FK">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>FA0EBE9F-5F9C-D1A5-B39B-76B39EDDD063</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7AF7C34-74AA-FAE6-DA7F-3753704923D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

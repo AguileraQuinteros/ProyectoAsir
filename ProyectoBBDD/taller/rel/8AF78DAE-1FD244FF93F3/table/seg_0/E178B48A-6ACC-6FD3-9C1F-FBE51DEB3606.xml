@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E178B48A-6ACC-6FD3-9C1F-FBE51DEB3606" name="TRANSFERENCIA_BANCARIA">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>DD2CB2EB-D5A9-8672-E0EF-CA53D3467DE9</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_forp" id="7C45C92C-4003-7C81-0258-4121776E6B8A">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>9473503A-CF00-7562-5578-5EE096D1AC6C</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D00038AC-1FF9-80DC-3FBF-9E5AC34A7DBB" referredColumn="B8DCC0A2-B4A5-0F9E-0E77-D095F49C26DD"/>
+</associations>
+</Column>
+<Column name="id_traf" id="B49B54CC-0FE8-43B2-040C-7DD452A1A014">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>801B986D-CCAF-7697-54C1-72D454D3A1EA</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_titular" id="2E664B63-5A76-6C3A-0E1D-845348F7DA4A">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>0F88FCB5-C858-A008-049C-5E3FF13CCD18</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_sucursal" id="03F1F828-1AEA-26BC-BB7C-EBA1A179E453">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>FCC85668-3CCC-9D59-6B22-8CE199D7BCBD</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numero_cuenta" id="AF6CC2E0-5D54-FF98-4AC5-B9999D9636D3">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>B8AACB5F-34AD-4C32-6B8D-96CB6F84DD5E</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="29FE4E04-3587-5E87-BDA6-3F23E9A0E45B" name="TRANSFERENCIA_BANCARIA_PK">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>784BFE7E-0279-A9D5-8569-A36C776E6F9C</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C45C92C-4003-7C81-0258-4121776E6B8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A6DC9C3D-3A00-FB62-95EB-387022AAA721" name="TRANSFERENCIA_BANCARIA_PKv1">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>11888FA0-8CBA-DA8C-9649-F759EFAD73B8</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B49B54CC-0FE8-43B2-040C-7DD452A1A014"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CAAB4AC6-7EA5-F83E-440F-D19929C21CC5" name="TRANSFERENCIA_BANCARIA_FORMA_PAGO_FK">
+<createdBy>laura</createdBy>
+<createdTime>2023-10-07 12:18:24 UTC</createdTime>
+<generatorID>64D1BDFA-5EF8-8916-632D-F527A62F00CE</generatorID>
+<ownerDesignName>taller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C45C92C-4003-7C81-0258-4121776E6B8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
