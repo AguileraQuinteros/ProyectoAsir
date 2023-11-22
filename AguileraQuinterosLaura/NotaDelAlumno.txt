@@ -1,0 +1,17 @@
+////////     NOTA DEL ALUMNO
+
+Se hace adjunta del Link y un PDF del proyecto. 
+
+Es importante señalar que el proyecto está en proceso en Notion, por lo que aún se están realizando ajustes, y es posible que experimente cambios. 
+
+Hay que tener en cuenta que la exportación de Notion a PDF puede afectar a la composición del documento.
+
+También se hace entrega de los videos de ejecución del punto 8. 
+
+Videos:
+1. Se muestra El Servidor TrueNas
+2. Se realiza la conexión por VPN
+3. Se realiza Copias de seguridad y recuperación de datos.
+4. Se realiza el acceso a los recursos compartidos a traves del servicio Samba.
+5. SimulaciónPcketTracer
+6. CreacionBBDD
